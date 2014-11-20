@@ -3,6 +3,8 @@
 	padding: 0;
 }
 
+/* EVERYTHING IN MENU */
+
 .side {
 	width: 33%;
 	height: 100%;
@@ -26,7 +28,7 @@
 
 #name {
 	text-align: center;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 24px;
 	color: #0E5298;
 	position: relative;
@@ -34,7 +36,37 @@
 	top: 4.2em;
 }
 
+#tags {
+	font-weight: 100;
+	text-align: center;
+	font-size: 15px;
+	color: #0E5298;
+	top: 7.1em;
+}
+
+#motto {
+	font-weight: 100;
+	text-align: center;
+	top: 6.2em;
+
+}
+
 .text {
 	font-family: "museo-sans-rounded",sans-serif;
+	position: relative;
+}
 
+/* EVERYTHING IN MAIN SECTION */
+
+.body {
+	width: 66%;
+	height: 100%;
+	background-color: grey;
+	right: 0px;
+	top: 0px;
+	float: right;
+	display: inline;
+	position: relative;
+	margin-left: 0;
+	padding-left: 0;
 }
