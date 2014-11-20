@@ -10,7 +10,7 @@
 	height: 100%;
 	display: inline;
 	float: left;
-	background-color: salmon;
+	background-color: #76BAFF;
 	left: 0px;
 	top: 0px;
 	position: relative;
@@ -30,7 +30,7 @@
 	text-align: center;
 	font-weight: 400;
 	font-size: 24px;
-	color: #0E5298;
+	color: white;
 	position: relative;
 	display: block;
 	top: 4.2em;
@@ -40,7 +40,7 @@
 	font-weight: 100;
 	text-align: center;
 	font-size: 15px;
-	color: #0E5298;
+	color: white;
 	top: 7.1em;
 }
 
@@ -48,6 +48,7 @@
 	font-weight: 100;
 	text-align: center;
 	top: 6.2em;
+	color: white;
 
 }
 
@@ -61,7 +62,7 @@
 .body {
 	width: 66%;
 	height: 100%;
-	background-color: grey;
+	background-color: white;
 	right: 0px;
 	top: 0px;
 	float: right;
@@ -69,4 +70,44 @@
 	position: relative;
 	margin-left: 0;
 	padding-left: 0;
+}
+
+.menu {
+	color: white;
+	text-align: center;
+	list-style-type: none;
+	font-family: "museo-sans-rounded",sans-serif;
+	font-weight: 100;
+	position: relative;
+	top: 14.5em;
+	line-height: 2;
+	color: white;
+}
+
+{
+	text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+#menu:hover{
+	color: black;
 }
