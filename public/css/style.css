@@ -111,3 +111,10 @@ a:active {
 #menu:hover{
 	color: black;
 }
+
+.contactform {
+	right: 0px;
+	top: 0px;
+	position: fixed;
+	text-align: center;
+}
