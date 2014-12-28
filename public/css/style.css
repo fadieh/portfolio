@@ -77,6 +77,12 @@
 	opacity: 1.0;
 }
 
+.social {
+	height: 15px;
+	width: 15px;
+	
+}
+
 a:link {
     text-decoration: none;
     color: white;
