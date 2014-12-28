@@ -6,56 +6,43 @@
 /* EVERYTHING IN MENU */
 
 .side {
-	width: 33%;
+	width: 20%;
 	height: 100%;
 	display: inline;
 	float: left;
 	background-color: #344454;
 	left: 0px;
-	top: -30px;
 	position: relative;
 }
 
 #logo {
-	height: 300px;
-	width: 300px;
+	height: 150px;
+	width: 150px;
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
 	display: block;
-	top: 5.5em;
 }
 
 #name {
 	text-align: center;
-	font-weight: 400;
 	font-size: 24px;
+	top: -20px;
 	color: white;
 	position: relative;
 	display: block;
-	top: 4.2em;
+	font-family: "coquette",fantasy;
+	font-weight: 400;
 }
 
 #tags {
 	font-weight: 100;
 	text-align: center;
-	font-size: 15px;
+	font-size: 8px;
 	color: white;
-	top: 7.1em;
+	font-family: "proxima-nova-soft",sans-serif;
+	text-transform: uppercase;
 }
 
-#motto {
-	font-weight: 100;
-	text-align: center;
-	top: 6.2em;
-	color: white;
-
-}
-
-.text {
-	font-family: "museo-sans-rounded",sans-serif;
-	position: relative;
-}
 
 /* EVERYTHING IN MAIN SECTION */
 
@@ -76,16 +63,18 @@
 	color: white;
 	text-align: center;
 	list-style-type: none;
-	font-family: "museo-sans-rounded",sans-serif;
 	font-weight: 100;
-	position: relative;
-	top: 14.5em;
-	line-height: 2;
 	color: white;
+	font-family: "proxima-nova-soft",sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	opacity: 0.5;
+	line-height: 3;
+	top: 100px;
 }
 
-{
-	text-decoration: none;
+.menu:hover {
+	opacity: 1.0;
 }
 
 a:link {
@@ -101,6 +90,7 @@ a:visited {
 a:hover {
     text-decoration: none;
     color: white;
+    opacity: 1.0;
 }
 
 a:active {
@@ -110,11 +100,4 @@ a:active {
 
 #menu:hover{
 	color: black;
-}
-
-.contactform {
-	right: 0px;
-	top: 0px;
-	position: fixed;
-	text-align: center;
 }
