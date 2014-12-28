@@ -77,10 +77,28 @@
 	opacity: 1.0;
 }
 
+.buttons {
+	width: 100%;
+	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-direction: row
+  	flex-direction: row;
+  	-webkit-align-items: center;
+  	align-items: center;
+  	-webkit-justify-content: center;
+  	justify-content: center;
+}
+
 .social {
 	height: 15px;
 	width: 15px;
-	
+	margin-right: 5px;
+	margin-left: 5px;
+	opacity: 0.5;
+}
+
+.social:hover {
+	opacity: 1;
 }
 
 a:link {
