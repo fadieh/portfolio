@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-/* EVERYTHING IN MENU */
+ /*EVERYTHING IN MENU */
 
 .side {
 	width: 20%;
@@ -16,8 +16,8 @@
 }
 
 #logo {
-	height: 150px;
-	width: 150px;
+	height: 175px;
+	width: 175px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -25,8 +25,9 @@
 
 #name {
 	text-align: center;
-	font-size: 24px;
-	top: -20px;
+	font-size: 36px;
+	top: 0;
+	line-height: 0.5;
 	color: white;
 	position: relative;
 	display: block;
@@ -38,13 +39,15 @@
 	font-weight: 100;
 	text-align: center;
 	font-size: 8px;
+	/*top: 2em;*/
+	line-height: 5;
 	color: white;
 	font-family: "proxima-nova-soft",sans-serif;
 	text-transform: uppercase;
 }
 
 
-/* EVERYTHING IN MAIN SECTION */
+ /*EVERYTHING IN MAIN SECTION */
 
 .body {
 	width: 66%;
@@ -69,8 +72,18 @@
 	text-transform: uppercase;
 	font-size: 12px;
 	opacity: 0.5;
-	line-height: 3;
-	top: 100px;
+	line-height: 2;
+
+}
+
+.links {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	width: 20%;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .menu:hover {
@@ -87,6 +100,9 @@
   	align-items: center;
   	-webkit-justify-content: center;
   	justify-content: center;
+  	bottom: 20px;
+  	left: 0px;
+  	position: absolute;
 }
 
 .social {
@@ -125,3 +141,4 @@ a:active {
 #menu:hover{
 	color: black;
 }
+*/*/*/
