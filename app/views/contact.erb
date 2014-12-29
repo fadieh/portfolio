@@ -7,11 +7,13 @@
 <body>
 
 <section class="forms">
-	<form method="post" action="/contact">
+	<form method="post" action="/contacted">
 		Name: <input name="name" type="text"><br>
+		Email: <input name="email" type="text"><br>
 		Company: <input name="company" type="text"><br>
 		Comments: <input name="comments" type="text"><br>
-		<input type="submit" value="Send Message">
+		<input type="submit" value="Send Message"><br>
+		<%= flash[:notice] %>
 	</form>
 </section>
 

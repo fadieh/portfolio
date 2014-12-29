@@ -12,7 +12,7 @@
 	float: left;
 	background-color: #344454;
 	left: 0px;
-	position: relative;
+	position: fixed;
 	border-right-style:solid;
 	border-right-width: 4px;
 	border-right-color: #273440;
