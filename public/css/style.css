@@ -8,17 +8,17 @@
 .side {
 	width: 20%;
 	height: 100%;
-	display: inline;
+	/*display: inline;*/
 	float: left;
 	background-color: #344454;
-	left: 0px;
+	left: 0;
 	position: fixed;
 	border-right-style:solid;
 	border-right-width: 4px;
 	border-right-color: #273440;
 }
 
-#logo {
+.logo {
 	height: 175px;
 	width: 175px;
 	margin-left: auto;
@@ -26,7 +26,7 @@
 	display: block;
 }
 
-#name {
+.name {
 	text-align: center;
 	font-size: 36px;
 	top: 0;
@@ -39,7 +39,7 @@
 	letter-spacing: 3;
 }
 
-#tags {
+.tags {
 	font-weight: 300;
 	text-align: center;
 	font-size: 8px;
@@ -53,25 +53,12 @@
 
  /*EVERYTHING IN MAIN SECTION */
 
-.body {
-	width: 66%;
-	height: 100%;
-	background-color: white;
-	right: 0px;
-	top: 0px;
-	float: right;
-	display: inline;
-	position: relative;
-	margin-left: 0;
-	padding-left: 0;
-}
 
 .menu {
 	color: white;
 	text-align: center;
 	list-style-type: none;
 	font-weight: 100;
-	color: white;
 	font-family: "proxima-nova-soft",sans-serif;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -104,9 +91,8 @@
   	-webkit-align-items: center;
   	align-items: center;
   	-webkit-justify-content: center;
-  	justify-content: center;
   	bottom: 20px;
-  	left: 0px;
+  	left: 0;
   	position: absolute;
 }
 
@@ -142,8 +128,3 @@ a:active {
     text-decoration: none;
     color: white;
 }
-
-#menu:hover{
-	color: black;
-}
-*/*/*/
