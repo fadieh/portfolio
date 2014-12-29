@@ -36,13 +36,14 @@
 	display: block;
 	font-family: "coquette",fantasy;
 	font-weight: 400;
+	letter-spacing: 3;
 }
 
 #tags {
-	font-weight: 100;
+	font-weight: 300;
 	text-align: center;
 	font-size: 8px;
-	/*top: 2em;*/
+	letter-spacing: 3;
 	line-height: 5;
 	color: white;
 	font-family: "proxima-nova-soft",sans-serif;
@@ -75,13 +76,14 @@
 	text-transform: uppercase;
 	font-size: 12px;
 	opacity: 0.5;
-	line-height: 2;
-
+	line-height: 3;
+	letter-spacing: 4;
 }
 
 .links {
 	position: fixed;
 	top: 50%;
+	padding-top: -25%;
 	left: 0;
 	width: 20%;
 	border: 0;
