@@ -8,12 +8,12 @@
 
 <section class="forms">
 	<form method="post" action="/contacted">
-		Name: <input name="name" type="text"><br>
-		Email: <input name="email" type="text"><br>
-		Company: <input name="company" type="text"><br>
-		Comments: <input name="comments" type="text"><br>
-		<input type="submit" value="Send Message"><br>
-		<%= flash[:notice] %>
+			<input name="name" class="name2" type="text" placeholder="Name"><br>
+			<input name="email" class="email" type="text" placeholder="Email"><br>
+			<input name="company" class="company" type="text" placeholder="Company"><br>
+			<input name="comments" class="comments" type="text" placeholder="Write your message here"><br><br>
+		<input class="submit" type="submit" value="Send"><br>
+				<%= flash[:notice] %>
 	</form>
 </section>
 
