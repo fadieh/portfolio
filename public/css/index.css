@@ -1,0 +1,21 @@
+.side {
+	background-color: #344454;
+	text-align: center;
+	color: white;
+	font-family: "coquette",fantasy;
+}
+
+.logo {
+	width: 150px;
+	height: 150px;
+}
+
+.ninth {
+	background-color: black;
+	color: white;
+}
+
+.roles {
+	font-family: "proxima-nova-soft",sans-serif;
+	font-weight: 300;
+}
