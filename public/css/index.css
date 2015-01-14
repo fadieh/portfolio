@@ -1,21 +1,35 @@
-.side {
-	background-color: #344454;
+.name {
+	font-size: 4.2rem;
+	letter-spacing: -.1rem;
+	font-weight: 400;
 	text-align: center;
-	color: white;
-	font-family: "coquette",fantasy;
+  	font-family: "rooney-web",sans-serif;
+	margin-bottom: 0rem;
+	letter-spacing: 0.13rem;
+}
+
+.title {
+	text-align: center;
+	font-weight: 200;
+  	font-family: "rooney-web",sans-serif;
+	margin-top: -0.3rem;
+	letter-spacing: 0.4rem;
+}
+
+.value-prop {
+	text-align: center;
+	font-family: "rooney-web",sans-serif;
+	font-weight: 700;
+}
+
+.value-prop-text {
+	font-weight: 300;
 }
 
 .logo {
-	width: 150px;
-	height: 150px;
-}
-
-.ninth {
-	background-color: black;
-	color: white;
-}
-
-.roles {
-	font-family: "proxima-nova-soft",sans-serif;
-	font-weight: 300;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 50%;
+	margin-left: -100px;
 }
