@@ -1,3 +1,7 @@
+body {
+	background-color: #FFFFFD;
+}
+
 .name {
 	/*font-size: 4.2rem;*/
 	letter-spacing: -.1rem;
@@ -46,4 +50,12 @@
 	height: 1px;
 	opacity: 0.2;
 	width: 100%;
+}
+
+.forms {
+		font-family: "rooney-web",sans-serif;
+}
+
+.message {
+	height: 500px;
 }
