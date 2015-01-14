@@ -2,8 +2,6 @@ require 'sinatra'
 require 'rack-flash'
 require 'rest_client'
 
-# class Portfolio < Sinatra::Base
-
 set :public_folder, Proc.new { File.join(root, '..', 'public') }
 
 set :show_exceptions, false
@@ -17,25 +15,14 @@ set :session_secret, 'super secret'
 		erb :index
 	end
 
-	get '/story' do
-		erb :story
-	end
-
-	get '/contact' do
-		erb :contact
-	end
-
 	post '/contacted' do
-		name = params[:name]
-		@name = name
-		company = params[:company]
-		@company = company
-		comments = params[:comments]
-		@comments = comments
-		email = params[:email]
-		@email = email
+		@name = params[:name]
+		@company = params[:company]
+		@comments = params[:comments]
+		@email = params[:email]
 		send_email(@name,@company,@comments,@email)
 		flash[:notice] = "Your message has been sent and will be read shortly."
+		redirect('/')
 		erb :contact
 	end
 
