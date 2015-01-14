@@ -1,24 +1,29 @@
 .name {
-	font-size: 4.2rem;
+	/*font-size: 4.2rem;*/
 	letter-spacing: -.1rem;
 	font-weight: 400;
 	text-align: center;
-  	font-family: "rooney-web",sans-serif;
-	margin-bottom: 0rem;
+	font-family: "rooney-sans",sans-serif;
+	margin-bottom: 0.5rem;
 	letter-spacing: 0.13rem;
+	text-transform: uppercase;
 }
 
 .title {
 	text-align: center;
 	font-weight: 200;
-  	font-family: "rooney-web",sans-serif;
+  	font-family: "rooney-sans",sans-serif;
 	margin-top: -0.3rem;
-	letter-spacing: 0.4rem;
+	letter-spacing: 0.2rem;
+	margin-bottom: 5rem;
 }
 
 .value-prop {
 	text-align: center;
 	font-family: "rooney-web",sans-serif;
+}
+
+.value-prop-heading {
 	font-weight: 700;
 }
 
@@ -32,4 +37,13 @@
 	position: relative;
 	left: 50%;
 	margin-left: -100px;
+}
+
+.break {
+	border-bottom-style: solid;
+	border-bottom-width: 0.6px;
+	color: grey;
+	height: 1px;
+	opacity: 0.2;
+	width: 100%;
 }
