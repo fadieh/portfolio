@@ -7,6 +7,8 @@
 <script src="//use.typekit.net/vgg1scn.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
+
 <script src="//use.typekit.net/wda2seg.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
@@ -23,7 +25,19 @@
 		<h2 class="name">Fadie Hannona</h2>
 		<h4 class="title">Full-Stack Developer</h4>
 
-		<section class="twelve columns break">
+
+	</section>
+
+	<section class="main">
+
+			<section class="twelve columns break">
+			</section>
+
+	<section class="twelve columns">
+		<h1 class="skills">My Skills</h1>
+
+		<section class="twelve columns">
+		<p class="skills-txt">Highly motivated Junior Full-Stack Developer. Hungry and curious to make awesome shit. I would love to specialise in the internet of things. Give me a job already. I'm just writing this synopsis to create filler text so I can see what it would look like. I need a bit more though.</p>
 		</section>
 
 		<section class="value-props row">
@@ -48,7 +62,12 @@
 
 	</section>
 
-	<section class="main">
+	<section class="twelve columns jitter">
+		<section class="jitter-header six columns">
+			Jitter
+		</section>
+
+	</section>
 
 		<form>
 			<section class="row">
@@ -62,11 +81,24 @@
 				</section>
 				<section class="twelve columns forms">
 					<label for="companyInput">Message</label>
-					<input class="u-full-width" type="email" placeholder="The Queen Vic" id="name">
+					<input class="u-full-width" type="email" placeholder="Say something" id="name">
 				</section>
 
 	</section>
 
+
+
 </section>
+
+<script src="/scripts/jquery.js"></script>
+<script>
+
+$('.jitter').mousemove(function(e){
+    var amountMovedX = (e.pageX * -0.1 / 6);
+    var amountMovedY = (e.pageY * -0.1 / 6);
+    $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+});
+
+</script>
 
 </body>

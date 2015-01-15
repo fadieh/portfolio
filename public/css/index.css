@@ -24,6 +24,7 @@ body {
 .value-prop {
 	text-align: center;
 	font-family: "rooney-web",sans-serif;
+	margin-bottom: 5rem;
 }
 
 .value-prop-heading {
@@ -45,16 +46,53 @@ body {
 .break {
 	border-bottom-style: solid;
 	border-bottom-width: 0.6px;
-	color: grey;
+	border-bottom-color: black;
 	height: 1px;
-	opacity: 0.2;
-	width: 100%;
+	opacity: 1;
+	width: 20%;
+	margin-bottom: 5rem;
 }
 
 .forms {
-		font-family: "rooney-web",sans-serif;
+	font-family: "rooney-web",sans-serif;
 }
 
 .message {
 	height: 500px;
 }
+
+.skills {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: black;
+}
+
+.skills-txt {
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	margin-bottom: 5rem;
+}
+
+.jitter {
+	background-image: url(/images/background.jpg);
+	background-size: 1600px;
+	/*background-position: 0px ;*/
+	height: 300px;
+	float: right;
+}
+
+.jitter-header {
+	color: white;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 5rem;
+}
+
