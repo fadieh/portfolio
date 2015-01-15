@@ -60,7 +60,7 @@ body {
 }
 
 .forms {
-	font-family: "rooney-web",sans-serif;
+	/*font-family: "rooney-web",sans-serif;*/
 }
 
 .message {
@@ -87,7 +87,6 @@ body {
 .jitter {
 	background-image: url(/images/background.jpg);
 	background-size: 1600px;
-	/*background-position: 0px ;*/
 	height: 300px;
 	float: right;
 }
