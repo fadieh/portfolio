@@ -7,7 +7,7 @@ Technologies Used
 
 - Ruby
 - Sinatra
-- HTML and CSS
+- ERB and CSS
 - MailGun
 - RestClient
 - RackFlash

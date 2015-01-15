@@ -4,12 +4,17 @@ body {
 
 .name {
 	letter-spacing: -.1rem;
+	background-color: #4B4FB2;
+	color: white;
 	font-weight: 400;
 	text-align: center;
 	font-family: "rooney-sans",sans-serif;
 	margin-bottom: 0.5rem;
 	letter-spacing: 0.13rem;
 	text-transform: uppercase;
+	border-bottom-left-radius: 5rem;
+	border-bottom-right-radius: 5rem;
+	padding-bottom: 3rem;
 }
 
 .title {
@@ -19,6 +24,7 @@ body {
 	margin-top: -0.3rem;
 	letter-spacing: 0.2rem;
 	margin-bottom: 5rem;
+	color: #4B4FB2;
 }
 
 .value-prop {
