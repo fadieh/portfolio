@@ -23,25 +23,6 @@ body {
 	margin-bottom: 0;
 }
 
-.ruby {
-	font-size: 24px;
-	line-height: 24px;
-	letter-spacing: 0.2rem;
-	font-weight: 100;
-	margin-bottom: 0;
-}
-
-.developer {
-	font-size: 26px;
-	line-height: 26px;
-	margin-bottom: 0;
-}
-
-.fullstack {
-	font-size: 25px;
-	line-height: 25px;
-}
-
 .social {
 	height: 50px;
 	width: 50px;
@@ -64,31 +45,6 @@ body {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-}
-
-.line1 {
-
-}
-
-.title {
-	font-weight: 200;
-	font-family: "jubilat",sans-serif;
-	letter-spacing: 0.3rem;
-	color: black;
-	font-size: 18px;
-}
-
-.workbutton {
-	width: 140px;
-	background-color: black;
-	color: white;
-	font-family: "brandon-grotesque",sans-serif;
-	font-weight: 300;
-	letter-spacing: 0.2rem;
-	text-align: center;
-	margin: 0;
-	border-style: none;
-	border-radius: 0;
 }
 
 .cont {
