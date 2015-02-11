@@ -3,101 +3,120 @@ body {
 }
 
 .name {
-	letter-spacing: -.1rem;
-	background-color: #4B4FB2;
-	color: white;
-	font-weight: 400;
+	color: black;
+	font-weight: 300;
 	text-align: center;
-	font-family: "rooney-sans",sans-serif;
-	margin-bottom: 0.5rem;
-	letter-spacing: 0.13rem;
+	font-family: "jubilat",sans-serif;
 	text-transform: uppercase;
-	border-bottom-left-radius: 5rem;
-	border-bottom-right-radius: 5rem;
-	padding-bottom: 3rem;
+	margin-bottom: 0;
+}
+
+.firstname {
+	letter-spacing: 0.5rem;
+	font-size: 36px;
+	line-height: 36px;
+	padding-top: 2rem;
+	margin-bottom: 0;
+}
+
+.surname {
+	font-size: 17.5px;
+	line-height: 18px;
+	letter-spacing: 0.5rem;
+}
+
+.ios {
+	text-transform: none;
+	font-size: 88px;
+	line-height: 88px;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+.ruby {
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: 0.2rem;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+.developer {
+	font-size: 26px;
+	line-height: 26px;
+	margin-bottom: 0;
+}
+
+.fullstack {
+	font-size: 25px;
+	line-height: 25px;
+}
+
+.social {
+	height: 30px;
+	width: 30px;
+	margin: 4px;
+}
+
+.social:hover {
+	opacity: 0.8;
+}
+
+.socialbox {
+	display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.line1 {
+	line-height: 2px;
+}
+
+.linebreak {
+	line-height: 1rem;
+	border-top-width: 0.2rem;
+	border-top-style: solid;
+	border-top-color: black;
+	border-top-left-radius: 170rem;
+	border-left-style:solid;
+	border-left-width: 25rem;
+	margin-top: 1rem;
+	width:;
 }
 
 .title {
-	text-align: center;
 	font-weight: 200;
-  	font-family: "rooney-sans",sans-serif;
-	margin-top: -0.3rem;
-	letter-spacing: 0.2rem;
-	margin-bottom: 5rem;
-	color: #4B4FB2;
-}
-
-.value-prop {
-	text-align: center;
-	font-family: "rooney-web",sans-serif;
-	margin-bottom: 5rem;
-}
-
-.value-prop-heading {
-	font-weight: 700;
-}
-
-.value-prop-text {
-	font-weight: 300;
-}
-
-.logo {
-	width: 200px;
-	height: 200px;
-	position: relative;
-	left: 50%;
-	margin-left: -100px;
-}
-
-.break {
-	border-bottom-style: solid;
-	border-bottom-width: 0.6px;
-	border-bottom-color: black;
-	height: 1px;
-	opacity: 1;
-	width: 20%;
-	margin-bottom: 5rem;
-}
-
-.forms {
-	/*font-family: "rooney-web",sans-serif;*/
-}
-
-.message {
-	height: 500px;
-}
-
-.skills {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	text-transform: uppercase;
+	font-family: "jubilat",sans-serif;
+	letter-spacing: 0.3rem;
 	color: black;
+	font-size: 18px;
 }
 
-.skills-txt {
-	width: 75%;
-	margin: auto;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	margin-bottom: 5rem;
-}
-
-.jitter {
-	background-image: url(/images/background.jpg);
-	background-size: 1600px;
-	height: 300px;
-	float: right;
-}
-
-.jitter-header {
+.workbutton {
+	width: 140px;
+	background-color: black;
 	color: white;
-	text-align: center;
-	background-color: rgba(0,0,0,0.8);
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	text-transform: uppercase;
-	font-size: 5rem;
+	border-radius: 0;
+	border-style: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
 }
 
+.cont {
+		display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
