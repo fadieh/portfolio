@@ -4,32 +4,22 @@ body {
 
 .name {
 	color: black;
-	font-weight: 300;
+	font-weight: 700;
 	text-align: center;
-	font-family: "jubilat",sans-serif;
-	text-transform: uppercase;
 	margin-bottom: 0;
-}
-
-.firstname {
-	letter-spacing: 0.5rem;
-	font-size: 36px;
-	line-height: 36px;
-	padding-top: 2rem;
-	margin-bottom: 0;
-}
-
-.surname {
-	font-size: 17.5px;
-	line-height: 18px;
-	letter-spacing: 0.5rem;
+	font-size: 42px;
+	line-height: 42px;
+	font-family: "chaparral-pro",sans-serif;
 }
 
 .ios {
-	text-transform: none;
-	font-size: 88px;
-	line-height: 88px;
-	font-weight: 100;
+	font-family: "chaparral-pro",sans-serif;
+	width: 275px;
+	font-size: 18px;
+	line-height: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
@@ -53,9 +43,12 @@ body {
 }
 
 .social {
-	height: 30px;
-	width: 30px;
-	margin: 4px;
+	height: 50px;
+	width: 50px;
+	margin-top: 20px;
+	margin-left: 12.5px;
+	margin-right: 12.5px;
+	margin-bottom: 0;
 }
 
 .social:hover {
@@ -74,19 +67,7 @@ body {
 }
 
 .line1 {
-	line-height: 2px;
-}
 
-.linebreak {
-	line-height: 1rem;
-	border-top-width: 0.2rem;
-	border-top-style: solid;
-	border-top-color: black;
-	border-top-left-radius: 170rem;
-	border-left-style:solid;
-	border-left-width: 25rem;
-	margin-top: 1rem;
-	width:;
 }
 
 .title {
