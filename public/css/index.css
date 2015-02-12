@@ -10,6 +10,7 @@ body {
 	font-size: 68px;
 	line-height: 57px;
 	font-family: "chaparral-pro",sans-serif;
+	/*-webkit-font-smoothing: antialiased;*/
 }
 
 .donut {
@@ -34,18 +35,21 @@ body {
 
 .ios {
 	font-family: "chaparral-pro",sans-serif;
-	width: 275px;
-	font-size: 18px;
-	line-height: 18px;
+	width: 445px;
+	font-size: 30px;
+	line-height: 30px;
+	letter-spacing: 0.15px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2px;
 	margin-bottom: 2px;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
 }
 
 .social {
-	height: 25px;
-	width: 25px;
+	height: 40.5px;
+	width: 40.5px;
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 0;
@@ -56,7 +60,7 @@ body {
 }
 
 .socialbox {
-  width: 275px;
+  width: 445px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
